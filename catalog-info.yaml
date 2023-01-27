@@ -1,0 +1,21 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: flappy-dragon
+  description: A copy of flappy bird using rust and a dragon
+  labels:
+    example.com/custom: custom_label_value
+  annotations:
+    github.com/project-slug: leocrt/flappy-dragon
+  tags:
+    - golang
+  links:
+    - url: https://github.com/leocrt/flappy-dragon
+      title: Github repo
+      icon: dashboard
+      type: admin-dashboard
+spec:
+  type: other
+  lifecycle: unknown
+  owner: guests
+  
